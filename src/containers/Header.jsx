@@ -1,10 +1,8 @@
 const Header = () => {
     return (
-        <div className="ui fixed menu">
-            <div className="ui container center">
-                <h2>FakeShop</h2>
-            </div>
-        </div>
+        <nav className="navbar navbar-light bg-primary">
+            <h2 className="navbar-brand mb-0 p-3 h1 text-white">Fakeshop</h2>
+        </nav>
     )
 }
 
