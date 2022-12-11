@@ -1,9 +1,8 @@
 import { actionTypes } from "../constants/actionTypes";
 
-export const setProducts = (products) => (
+export const getProducts = () => (
     {
-        type: actionTypes.SET_PRODUCTS,
-        payload: products,
+        type: actionTypes.GET_PRODUCTS_REQUEST,
     }
 )
 
