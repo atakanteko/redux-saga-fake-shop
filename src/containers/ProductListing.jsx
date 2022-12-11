@@ -1,7 +1,10 @@
+import ProductComponent from "./ProductComponent";
+
 const ProductListing = () => {
+    
     return (
-       <div>
-            <h1>Product Listing</h1>
+       <div className="ui grid container" style={{marginTop:'1%'}}>
+            <ProductComponent />
        </div>
     )
 }
